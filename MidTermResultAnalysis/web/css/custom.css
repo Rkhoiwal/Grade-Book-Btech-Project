@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.container h1{
+	padding-bottom:1em;
+	padding-top:1em;
+	padding-left:15px;
+}
+.container{
+	background-color:#999;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+#accrodion{
+	margin-top:30px;
+	background-color:#FFF;
+	padding:0px;
+}
+.panel-default>.panel-heading{
+	background-color:#999;
+}
+.jumbotron{
+	padding-top:0px;
+}

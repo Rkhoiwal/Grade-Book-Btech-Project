@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+.login-box {
+    padding: 10px 30px 25px 25px;
+
+    background: none repeat scroll 0% 0% rgb(241, 241, 241);
+
+    border: 1px solid rgb(229, 229, 229);
+
+    width:300px;
+
+}
+
+.login-box div {
+
+    margin: 0px 0px 0.4em;
+
+}
+
+.login-box h2 {
+
+    font-size: 16px;
+
+    line-height: 17px;
+    font-weight: normal;
+
+}
+.modalDialog {
+		position: fixed;
+		font-family: Arial, Helvetica, sans-serif;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: rgba(0,0,0,0.8);
+		z-index: 99999;
+		opacity:0;
+		-webkit-transition: opacity 400ms ease-in;
+		-moz-transition: opacity 400ms ease-in;
+		transition: opacity 400ms ease-in;
+		pointer-events: none;
+	}
+
+	.modalDialog:target {
+		opacity:1;
+		pointer-events: auto;
+	}
+
+	.modalDialog > div {
+		width: 325px;
+		position: relative;
+		margin: 10% auto;
+		padding: 5px 20px 13px 20px;
+		border-radius: 10px;
+		background: #f7f7f7f7;
+	}
+
+	.close {
+		background: #606061;
+		color: #FFFFFF;
+		line-height: 25px;
+		position: absolute;
+		right: -12px;
+		text-align: center;
+		top: -10px;
+		width: 24px;
+		text-decoration: none;
+		font-weight: bold;
+		-webkit-border-radius: 12px;
+		-moz-border-radius: 12px;
+		border-radius: 12px;
+		-moz-box-shadow: 1px 1px 3px #000;
+		-webkit-box-shadow: 1px 1px 3px #000;
+		box-shadow: 1px 1px 3px #000;
+	}
+
+	.close:hover { background: #00d9ff; }
+
+.signup-box
+{
+	padding: 10px 30px 25px 25px;
+	background: none repeat scroll 0% 0% rgb(241, 241, 241);
+	border: 1px solid rgb(229, 229, 229);
+	width:300px;
+	height:490px;
+	border-radius:6px;
+}
+.signup-box div {
+	margin: 0px 25px 0.5em;
+	
+}
+.signup-box h2 {
+	font-size: 16px;
+	line-height: 17px;
+	font-weight: bold;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#009;
+	margin-top:10px;
+}
+.signup-box label {
+	display: block;
+}
+.signup-box .email-label, .signup-box .passwd-label, .signup-box .name-label, .signup-box .rollno-label, .signup-box .Retypepasswd-label {
+	font-weight: bold;
+	margin: 0px 0px 0.5em;
+	display: block;
+	-moz-user-select: none;
+}
+strong {
+	color: rgb(34, 34, 34);
+}
+input[type="email"], input[type="password"], input[type="text"]  {
+	display: inline-block;
+	height: 29px;
+	margin: 0px;
+	padding: 0px 8px;
+	background: none repeat scroll 0% 0% rgb(255, 255, 255);
+	border-right: 1px solid rgb(217, 217, 217);
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(192, 192, 192) rgb(217, 217, 217) rgb(217, 217, 217);
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	-moz-box-sizing: border-box;
+	border-radius: 1px 1px 1px 1px;
+}
+ol, ul {
+	list-style: none outside none;
+	line-height: 17px;
+	padding-left:0px;
+	margin-top: 10px;
+}
+a {
+	color: rgb(17, 85, 204);
+	text-decoration: none;
+}
+a#forgot_password {
+	display:block;
+}
+.signup-box input[type="submit"] {
+	margin: 0px 1.5em 1.2em 0px;
+	height: 32px;
+	font-size: 13px;
+}
+.button, input.button[type="submit"] {
+	height: 31px;
+	line-height: 29px;
+	vertical-align: bottom;
+	width:80px;
+	margin-left:25px;
+}
+.button-submit {
+	border: 1px solid rgb(48, 121, 237);
+	color: #fff;
+	text-shadow: 0px 1px rgba(0, 0, 0, 0.1);
+	background-color: #478BF9;
+}
+.button {
+	display: inline-block;
+	min-width: 46px;
+	text-align: center;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	height: 31px;
+	padding: 0px 8px;
+	line-height: 27px;
+	border-radius: 2px 2px 2px 2px;
+	transition: all 0.218s ease 0s;
+	border: 1px solid rgb(220, 220, 220);
+	background-color: #478BF9;
+	-moz-user-select: none;
+	cursor: default;
+}
+.signup-box h2 strong {
+	display: inline-block;
+	float:right;
+	height: 19px;
+	width: 52px;
+}
+input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus {
+	outline: medium none;
+	border: 1px solid rgb(77, 144, 254);
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3) inset;
+}
+#roll-no, #Name, #Email, #Passwd, #RetypePasswd
+{
+	width:250px;
+}
+#myCarousel
+{	
+}
